@@ -9,3 +9,7 @@ import vrp_creator
 class Stop(vrp_creator.Stop):
     def add_capacity(self, cap):
         self.capacity = cap
+
+class Instance(vrp_creator.Instance):
+    def set_vehicle_capacity(self, cap):
+        self.vehicleCapacity = cap
