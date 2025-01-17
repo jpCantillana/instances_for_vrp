@@ -10,13 +10,6 @@ class Stop(object):
         self.id = id
         self.xcoord = xcoord
         self.ycoord = ycoord
-    def add_demand(self, demand):
-        self.demand = demand
-    def add_timeWindow(self, earliest_arrival, latest_departure):
-        self.earliest_arrival = earliest_arrival
-        self.latest_departure = latest_departure
-    def add_serviceTime(self, service_time):
-        self.service_time = service_time
 
 # Class Instance: this is the class that defines an instance
 class Instance(object):
